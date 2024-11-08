@@ -1,0 +1,204 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Playwrite+GB+S:ital,wght@0,100..400;1,100..400&display=swap');
+*{
+    box-sizing: border-box;
+
+}
+.navbar-container{
+    width: 100%;
+    height: 80px;
+    background-color: #000000;
+    position: relative;
+}
+.logo{
+    width: 50px;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+.nav{
+    position: relative;
+}
+.navbar-itens{
+    list-style: none;
+    position: absolute;
+    height: 80px;
+    line-height: 80px;
+    margin: 0;
+    right: 10px;
+    top: 0;
+}
+.navbar-itens li{
+    display: inline-block;
+    margin: 0 15px;
+    text-transform: uppercase;
+}
+.navbar-itens li a{
+    text-decoration: none;
+    color: white;
+}
+.navbar-itens li a:hover{
+    color: #9405C9;
+}
+.default-btn{
+    background-color: #9405C9;
+    color: white;
+    padding: 10px 15px;
+    border-radius: 3px;
+    text-decoration: none;
+}
+.default-btn:hover{
+    color: #9405C9;
+    background-color: white;
+}
+.default-btn a{
+    color:rgb(20, 172, 78);
+    font-weight: 800;
+}
+.background{
+    background-image: url(../Img/banner\ 1.png);
+    width: 100%;
+    height: 600px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.background h1{
+    color: white;
+    font-size: 64px;
+    font-weight: 800;
+}
+.background h2{
+    color: white;
+    font-size: 32px;
+    font-weight: 500;
+}
+.service-container{
+    padding: 5em 0;
+    background-color: rgb(0, 0, 0);
+}
+.service-container ul{
+    display: flex;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0;
+    gap: 5%;
+}
+.service-container ul li{
+    flex: 1 1 200px;
+    list-style: none;
+    text-align: center;
+    padding: 20px;
+}
+.fa-solid{
+    font-size: 70px;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+.fa-shield-halved{
+    color:#9405C9
+}
+.fa-rocket{
+    color:#9405C9
+}
+.fa-comments{
+    color:#9405C9
+}
+.service-container ul li h3{
+    margin-bottom: 25px;
+    color: white;
+}
+
+.service-container ul li p{
+    line-height: 24px;
+    color: white;
+}
+
+.planos-container{
+    padding: 5em;
+    text-align: center;
+}
+.planos-container h2{
+    color: white;
+    font-size: 36px;
+    margin-top: 0;
+}
+.planos-container h3{
+    color: white;
+    font-size: 20px;
+}
+.precos-container{
+    justify-content: space-between;
+    display: flex;
+    margin-top: 50px;
+    width: 90%;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+}
+.plano{
+    flex: 1 1 200px;
+    max-width: 275px;
+    margin-left: 20px;
+    margin-right: 20px;
+    color: white;
+}
+.planos-container .precos-container .preco{
+    background-color: #7F4BD1;
+    color: white;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    padding-top: 60px;
+    font-size: 25px;
+    font-weight: 600;
+    margin-bottom: -65px;
+    z-index: 1;
+    position: relative;
+}
+.background2{
+    background-image: url(../Img/banner2.png);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.planos-container .precos-container .nome-plano{
+    width: 280px;
+    height: 120px;
+    background-color: #000000;
+    color: white;
+    font-size: 30px;
+    line-height: 180px;
+}
+
+.plano ul li{
+    border: 1px solid white;
+    list-style: none;
+    width: 280px;
+    background-color: ;
+    line-height: 30px;
+    padding-top: 10px;
+}
+.planos-container .precos-container .btn-plano{
+    background-color: #A104CD;
+    color: white;
+    font-size: 26px;
+    height: 50px;
+}
+.planos-container .precos-container .recomendado{
+background-color: aqua;
+}
+
